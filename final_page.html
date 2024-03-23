@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ботик</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="text">
+        Я очень долго и часто думала об этом и поняла, что из статуса «близкие
+        друзья» я бы хотела перейти в статус «Парень и девушка». Если ты не
+        против, то готов ли ты стать моим парнем, мужем и вообще спутником по
+        жизни?
+      </div>
+      <img
+        class="image2"
+        src="https://i.gifer.com/nS2.gif"
+        alt="Котик с кнопками"
+      />
+      <button class="button2" onclick="accept()">Да</button>
+      <button class="button3" disabled>Нет</button>
+      <!-- <button class="button no2" onmousemove="moveButton(event)">Нет</button> -->
+    </div>
+
+    <script>
+      function accept() {
+        window.location.href = "love.html";
+      }
+      function decline() {
+        window.location.href = "decline_page.html";
+      }
+      // }
+      // function moveButton(event) {
+      //   var button = document.querySelector('.button.no2');
+      //   var container = document.querySelector('.container');
+      //   var containerRect = container.getBoundingClientRect();
+
+      //   var randomX = Math.random() * (containerRect.width - button.offsetWidth);
+      //   var randomY = Math.random() * (containerRect.height - button.offsetHeight);
+
+      //   button.style.left = (containerRect.left + randomX) + 'px';
+      //   button.style.top = (containerRect.top + randomY) + 'px';
+      // }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-color: #ffdde3;
+}
+
+button {
+    padding: 29px 49px;
+    margin: 34px;
+    font-size: 36px;
+    border-radius: 63px;
+    cursor: pointer;
+    background-color: #e60066;
+    color: white;
+    position: relative;
+    left: 41px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.button2 {
+  padding: 29px 49px;
+  margin: 9px;
+  font-size: 36px;
+  border-radius: 63px;
+  cursor: pointer;
+  background-color: #e60066;
+  color: white;
+  position: relative;
+  top: -192px;
+  left: -269px;
+}
+
+.button3 {
+  padding: 29px 49px;
+  margin: 9px;
+  font-size: 36px;
+  border-radius: 63px;
+  cursor: pointer;
+  background-color: #e60066;
+  color: white;
+  pointer-events: none;
+  position: relative;
+  top: -192px;
+  left: -25px;
+}
+
+.image2 {
+  width: 400px;
+  height: 328px;
+  position: relative;
+  top: 217px;
+  left: 218px;
+}
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.text1 {
+  color: #875491;
+  font-size: xxx-large;
+  font-family: cursive;
+}
+
+.text {
+  color: #f500a0;
+  font-size: 34px;;
+  font-family: cursive;
+  margin: 2%;
+  position: relative;
+  left: 46px;
+}
+
+.text34 {
+  color: #875491;
+  font-size: xxx-large;
+  font-family: cursive;
+}
+
+.gif {
+  width: 400px;
+  height: 328px;
+}
